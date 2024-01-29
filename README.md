@@ -17,7 +17,11 @@ Performance Metric Used:-
 Mean Absolute Precentage Error
 
 Conclusion:-
-
+1) The Manhattan(downtown) has the highest demand in the entire NYC which comprises of 93.88% of total pickups.
+2) Friday has the highest demand followed by weekends.
+3) There is no trend in the data but we have a seasonality of 1 day.
+4) Exponential Weighted Averages worked as the best baseline model for featurization for supervised ML.
+5) Through XGB, we found an MAPE to be 14.2%
 
 Challenges to address:-
 1) Latency in providing insights to the driver for the region with high density
